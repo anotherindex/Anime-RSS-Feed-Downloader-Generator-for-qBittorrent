@@ -1,7 +1,7 @@
 # Index's Anime RSS Feed Downloader Generator for qBittorrent
-*Note that just like with [my previous project](https://github.com/anotherindex/anime-screenshot-sorter) this is more like a personal project that I made public because it might also be useful for some people.*
-This python script creates anime download rules for the RSS Feed Downloader in qBittorrent from files you have downloaded.
-If you for example have a folder with anime episodes from the currently airing season and you want qBittorrent to automatically download all upcoming episodes from those shows using RSS feeds, this script will generate a .json file that can be imported into qBittorrents RSS Downloader.
+*Note that just like with [my previous project](https://github.com/anotherindex/anime-screenshot-sorter) this is more like a personal project that I made public because it might also be useful for some people.*    
+This python script creates anime download rules for the RSS Feed Downloader in qBittorrent from files you have downloaded.    
+If you for example have a folder with anime episodes from the currently airing season and you want qBittorrent to automatically download all upcoming episodes from those shows using RSS feeds, this script will generate a .json file that can be imported into qBittorrents RSS Downloader.    
 
 &nbsp;
 
@@ -49,7 +49,7 @@ Default setting: `manual_file_path_to_feeds_json = r""`
 This dictionary makes finding subgroups more reliable by associating the subgroup with a search term. It also exists for visual reasons.    
 You should not need to add extra subgroups to this as the script should generally find subgroups not included in this dictionary just fine, as long as you named your RSS feed correctly in qBittorrent.    
 This can however help with subgroups that have weird naming schemes or trouble getting detected.    
-NOTE: If you want to use subgroups shorter than 3 letters you WILL have to add them to this dictionary, maybe even consider using brackets as the search term and in your RSS feed name like: "[gg]": "[gg]",
+NOTE: If you want to use subgroups shorter than 3 letters you WILL have to add them to this dictionary, maybe even consider using brackets as the search term and in your RSS feed name like: `"[gg]": "[gg]",`
 ### My RSS Feeds
 I would recommend using the 'feeds.json' method and leaving this variable untouched, but if the 'feeds.json' method doesn't work you can alternatively enter the RSS feeds you use down below.    
 They need to be the same links as in your qBittorrent, so if you use for example `"https://animetorrenttracker.com/?page=rss&q=RANDOM-SUBGROUP+1080&c=0_0&f=0"` as your RSS feed for RANDOM-SUBGROUP    
