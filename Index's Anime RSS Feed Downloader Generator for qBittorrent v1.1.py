@@ -62,8 +62,8 @@ subgroup_search_dictionary = {
 
 # MY RSS FEEDS
 # I would recommend using the 'feeds.json' method and leaving this variable untouched, but if the 'feeds.json' method doesn't work you can alternatively enter the RSS feeds you use down below.
-# They need to be the same links as in your qBittorrent, so if you use for example "https://nyaa.si/?page=rss&q=subsplease+1080&c=0_0&f=0" as your RSS feed for SubsPlease
-# then you need to enter the same exact link down below, like "[SubsPlease]": "https://nyaa.si/?page=rss&q=subsplease+1080&c=0_0&f=0",
+# They need to be the same links as in your qBittorrent, so if you use for example "https://animetorrenttracker.com/?page=rss&q=RANDOM-SUBGROUP+1080&c=0_0&f=0" as your RSS feed for RANDOM-SUBGROUP 
+# then you need to enter the same exact link down below, like "[RANDOM-SUBGROUP]": "https://animetorrenttracker.com/?page=rss&q=RANDOM-SUBGROUP+1080&c=0_0&f=0",
 my_RSS_feeds = {
     "[SubsPlease]": "",
     "[Erai-raws]": "",
