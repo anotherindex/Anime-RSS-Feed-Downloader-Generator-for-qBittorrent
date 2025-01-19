@@ -8,7 +8,7 @@ If you for example have a folder with anime episodes from the currently airing s
 &nbsp;
 
 Demo video:    
-https://github.com/user-attachments/assets/0e911edf-5bff-40d0-8586-7db0b79760ca
+<video src="https://github.com/user-attachments/assets/0e911edf-5bff-40d0-8586-7db0b79760ca"></video>
 
 
 &nbsp;
