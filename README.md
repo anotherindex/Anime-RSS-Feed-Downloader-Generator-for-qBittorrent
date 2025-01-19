@@ -1,7 +1,15 @@
 # Index's Anime RSS Feed Downloader Generator for qBittorrent
-*Note that just like with [my previous project](https://github.com/anotherindex/anime-screenshot-sorter) this is more like a personal project that I made public because it might also be useful for some people.*    
+
 This python script creates anime download rules for the RSS Feed Downloader in qBittorrent from files you have downloaded.    
 If you for example have a folder with anime episodes from the currently airing season and you want qBittorrent to automatically download all upcoming episodes from those shows using RSS feeds, this script will generate a .json file that can be imported into qBittorrents RSS Downloader.    
+
+*Note that just like with [my previous project](https://github.com/anotherindex/anime-screenshot-sorter) this is more of a personal project that I made public because it might also be useful for some people.*
+
+&nbsp;
+
+Demo video:    
+https://github.com/user-attachments/assets/0e911edf-5bff-40d0-8586-7db0b79760ca
+
 
 &nbsp;
 
