@@ -24,6 +24,7 @@ If you for example have a folder with anime episodes from the currently airing s
 - [F.A.Q.](#faq)
   - [qBittorrent Notifications/Errors](#i-successfully-added-the-download-rules-to-the-rss-downloader-but-now-qbittorrent-shows-a-ton-of-notificationserrors-about-either-merging-trackers-or-duplicated-torrents-how-do-i-make-them-stop)
   - [Script Opens in Text Editor](#if-i-doubleclick-on-the-script-it-just-opens-it-in-a-text-editor-instead-of-executing-it-what-do-i-do)
+  - [Asterisk * Next to Subgroup Name](#what-does-an-asterisk--next-to-the-subgroup-mean)
 
 &nbsp;
 
@@ -101,3 +102,8 @@ Wait for all the notifications to finish showing up once, then go to the RSS tab
 
 ### If I doubleclick on the script it just opens it in a text editor instead of executing it, what do I do?
 Create a new text file, write `py "Index's Anime RSS Feed Downloader Generator for qBittorrent v1.1.py"` in it (with the correct filename in case you use a different version), save it as `RSS Downloader Generator.bat`, and double-click that `.bat` file.
+
+### What does an asterisk * next to the subgroup mean?
+It's a simple visual indicator that the subgroup was sucessfully paired with an RSS feed, but that this subgroup is not part of the default RSS feeds.    
+It can generally be ignored.
+
